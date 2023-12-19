@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ChessGame.Domain.Tabuleiro;
+
+var posicao = new Posicao(3, 4);
+
+Console.WriteLine($"posicao {posicao}");
