@@ -1,7 +1,7 @@
 ﻿
-namespace ChessGame.Domain.Tabuleiro
+namespace ChessGame.Domain.Models
 {
-    internal class Posicao
+    public class Posicao
     {
         public int Linha { get; set; }
         public int Coluna { get; set; }

@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChessGame.Domain.Tabuleiro
+namespace ChessGame.Domain.Models
 {
-    internal class Peca
+    public enum Cor
     {
+        Branca,
+        Preta
     }
 }
