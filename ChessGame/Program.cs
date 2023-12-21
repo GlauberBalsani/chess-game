@@ -2,13 +2,13 @@
 using ChessGame.Domain.Models;
 using ChessGame.Domain.Models.Xadrez;
 
-var posicao = new Posicao(3, 4);
 
-Console.WriteLine($"posicao {posicao}");
+
 
 Tabuleiro tabuleiro = new Tabuleiro(8, 8);
 
 tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.Preta), new Posicao(0,0));
+tabuleiro.ColocarPeca(new Rei(tabuleiro, Cor.Preta), new Posicao(0,0));
 tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.Preta), new Posicao(1,3));
 tabuleiro.ColocarPeca(new Rei(tabuleiro, Cor.Preta), new Posicao(2,4));
 
